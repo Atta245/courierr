@@ -288,7 +288,11 @@ else{
     <!--End Back To Top Button-->
 	
 	
-
+  <!--Start footer-->
+	<?php
+    include("footer.php");
+  ?>
+	<!--End footer-->
 
 
 	<!--start color switcher-->
@@ -320,6 +324,9 @@ else{
  
   <!-- Index js -->
   <script src="assets/js/index.js"></script>
+
+  
+  
 
   
 </body>

@@ -22,95 +22,111 @@ else{
 <div class="clearfix"></div>
 	
   <div class="content-wrapper">
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-    <div class="row mt-3">
-      <div class="col-lg-6">
-         <div class="card">
-           <div class="card-body">
-           <div class="card-title">Add New Courier</div>
-           <hr>
-            <form>
-           <div class="form-group">
-            <label for="input-1">Street/Building</label>
-            <input type="text" class="form-control" id="input-1" placeholder="Enter Your Name">
-           </div>
-           <div class="form-group">
-            <label for="input-2">City</label>
-            <input type="text" class="form-control" id="input-2" placeholder="Enter Your Email Address">
-           </div>
-           <div class="form-group">
-            <label for="input-3">State</label>
-            <input type="text" class="form-control" id="input-3" placeholder="Enter Your Mobile Number">
-           </div>
-           <div class="form-group">
-            <label for="input-4">Zip Code/ Postal Code</label>
-            <input type="text" class="form-control" id="input-4" placeholder="Enter Password">
-           </div>
-           <div class="form-group">
-            <label for="input-5">Country</label>
-            <input type="text" class="form-control" id="input-5" placeholder="Confirm Password">
-           </div>
-           <div class="form-group">
-            <label for="input-5">Contact #</label>
-            <input type="text" class="form-control" id="input-5" placeholder="Confirm Password">
-           </div>
-           <!-- <div class="form-group py-2">
-             <div class="icheck-material-white">
-            <input type="checkbox" id="user-checkbox1" checked=""/>
-            <label for="user-checkbox1">I Agree Terms & Conditions</label>
+<div class="row mt-3">
+  <div class="col-lg-12">
+     <div class="card">
+       <div class="card-body">
+       <div class="card-title">New Parcel</div>
+       <hr>
+       <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Sender Information <br> Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Recipient Information <br> Name</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Address</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Address</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Contact#</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Contact#</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputState">Pickup Branch</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        <!-- </div>
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div> -->
+
+<!-- table start -->
+
+        <div class="row mt-3">
+        
+        <div class="col-lg-12 ">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Parcel Information</h5>
+			    <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <!-- <th scope="col">#</th> -->
+                    <th scope="col">Weight</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Length</th>
+                    <th scope="col">Width</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <!-- <th scope="row">1</th> -->
+                    <td><input type="text" class="form-control" ></td>
+                    <td><input type="text" class="form-control" ></td>
+                    <td><input type="text" class="form-control" ></td>
+                    <td><input type="text" class="form-control" ></td>
+                    <td><input type="text" class="form-control" ></td>
+                    <td><i class="ri-close-line h3 text-danger"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class=" h6 text-right pt-3">
+                Total : 200.00
+              </div>
+              <div class="text-right">
+                <button type="submit" class="btn btn-outline-secondary">Add item</button>
+              </div>
             </div>
-           </div> -->
-           <div class="form-group">
-            <button type="submit" class="btn btn-light px-5"><i class="icon-lock"></i> Save</button> 
-            <button type="submit" class="btn btn-light px-5"><i class="icon-lock"></i> Cancel</button> 
 
           </div>
-          </form>
-         </div>
-         </div>
-      </div>
-
-      <!-- <div class="col-lg-6">
-        <div class="card">
-           <div class="card-body">
-           <div class="card-title">Round Vertical Form</div>
-           <hr>
-            <form>
-           <div class="form-group">
-            <label for="input-6">Name</label>
-            <input type="text" class="form-control form-control-rounded" id="input-6" placeholder="Enter Your Name">
-           </div>
-           <div class="form-group">
-            <label for="input-7">Email</label>
-            <input type="text" class="form-control form-control-rounded" id="input-7" placeholder="Enter Your Email Address">
-           </div>
-           <div class="form-group">
-            <label for="input-8">Mobile</label>
-            <input type="text" class="form-control form-control-rounded" id="input-8" placeholder="Enter Your Mobile Number">
-           </div>
-           <div class="form-group">
-            <label for="input-9">Password</label>
-            <input type="text" class="form-control form-control-rounded" id="input-9" placeholder="Enter Password">
-           </div>
-           <div class="form-group">
-            <label for="input-10">Confirm Password</label>
-            <input type="text" class="form-control form-control-rounded" id="input-10" placeholder="Confirm Password">
-           </div>
-           <div class="form-group py-2">
-             <div class="icheck-material-white">
-            <input type="checkbox" id="user-checkbox2" checked=""/>
-            <label for="user-checkbox2">I Agree Terms & Conditions</label>
             </div>
-           </div>
-           <div class="form-group">
-            <button type="submit" class="btn btn-light btn-round px-5"><i class="icon-lock"></i> Register</button>
-          </div>
-          </form>
-         </div>
-         </div>
-      </div> -->
-    </div><!--End Row-->
+              <div class="text-center">
+                <button type="submit" class="btn btn-dark">save</button>
+                <button type="submit" class="btn btn-outline-secondary">cancel</button>
+            </div>
+
+        </div>
+      </div><!------ table End ----->
+
+      </form>
+     </div>
+     </div>
+  </div>
+
+  
+</div><!--End Row-->
+
+
 
 	<!--start overlay-->
 		  <div class="overlay toggle-menu"></div>
@@ -125,13 +141,9 @@ else{
     <!--End Back To Top Button-->
 	
 	<!--Start footer-->
-	<footer class="footer">
-      <div class="container">
-        <div class="text-center">
-          Copyright © 2018 Dashtreme Admin
-        </div>
-      </div>
-    </footer>
+	<?php
+    include("footer.php");
+  ?>
 	<!--End footer-->
 	
 	<!--start color switcher-->
